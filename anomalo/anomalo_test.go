@@ -12,8 +12,8 @@ import (
 
 var (
 	fakeAnomalo = Client{
-		Host:           "",
-		Token:          "",
+		Host:           "https://anomalo.blueorigin.com/",
+		Token:          "QRBo7-Kxh-1sit72R3Ot9GILQwpPTlLpYUkR4TiGbT_eVq5UP5S2et3CDpLetJdDWMOc0IIwHVyS2CGPB8jtaGUY9vID26la7WSltgUHBuFEv0s5CT5A7ldPcItJ1masjWI2IKEQWvsU2gQlNZZivIuBEdkRx37cuxz88R35dk",
 		ClientProvider: func() *http.Client { return &http.Client{} },
 	}
 )
